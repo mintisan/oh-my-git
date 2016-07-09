@@ -15,3 +15,8 @@
     ```
 > When you execute `echo $PWD` in shell, you will know what the `$PWD` means.
 > Yes, it means the path of current directory you stayed.
+
+or you can use shell script below after you backup your git config:
+```
+sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-git/master/install.sh)"
+```
